@@ -1,0 +1,56 @@
+identifier: k47
+title: Assembly of the K47 Gearbox
+stages:
+  - title: Bevel Pinion Shaft Assembly
+    description: Prepare the first pinion shaft sub-assembly.
+    steps:
+      - description: Attach the front cover to the main housing.
+        image: images/step1.png
+      - description: Secure the cover with screws.
+        image: images/step2.png
+  - title: Workstation 2
+    description: Install the internal gears.
+    steps:
+      - description: Place the primary gear into the housing.
+        image: images/step3.png
+      - description: Align and insert the secondary gear.
+        image: images/step4.png
+  - title: Workstation 3
+    description: Final assembly and testing.
+    steps:
+      - description: Attach the back cover to complete the assembly.
+        image: images/step5.png
+      - description: Test the gearbox functionality.
+        image: images/step6.png
+
+
+steps:
+  - number: 1
+    description: " Prepare the following parts for the assembly of the first pinion shaft.
+    - Pinion Shaft
+    - Tapered Roller Bearing
+    - Spacer Tube"
+    image: images/step1.png
+    tools: []
+    parts: [input_pinion_shaft, input_spacer_tube]
+    workstation: Workstation 1
+  - number: 2
+    description: " Slide the tapered roller bearing onto the pinion shaft. Ensure that the bearing is oriented correctly, with the larger diameter facing towards the spacer tube."
+    image: images/step2.png
+    tools: []
+    parts: [input_pinion_shaft, input_tapered_roller_bearing]
+    workstation: Workstation 1
+  - number: 3
+    description: "- Place the gear unit housing down onto the workbench with the input side down
+    - Insert the pinion shaft subassembly into the housing."
+    image: images/step3.png
+    tools: []
+    parts: [gear_unit_housing, input_pinion_shaft_assembly]
+    workstation: Workstation 1
+  - number: 4
+    description: "- Push the assembled pinion shaft toward the input side through the bearing bore.
+    - At the same time push the inner bearing ring and the gear onto the pinion shaft from the input side."
+    image: images/step4.png
+    tools: []
+    parts: [gear_unit_housing, input_pinion_shaft_assembly, input_gear]
+    workstation: Workstation 1
