@@ -8,7 +8,7 @@ public class StepEnterAdvance : MonoBehaviour
     public InputActionReference buttonAction;
 
     // Steps where Enter should advance
-    public int[] enterSteps = { 1, 4, 5, 10 };
+    public int[] enterSteps = {0};
 
     void Start()
     {

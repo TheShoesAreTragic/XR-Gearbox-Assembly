@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Gearbox Part
+  - HeatObject
   layers:
   - Default
   - TransparentFX
