@@ -5,10 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AssemblyFloor.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/VR_Training_Sim.unity
+    guid: 227a42e784d4efd459a74a1ef97a746c
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e6c85f584b8b548b0b73c02f1cd2f444, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d70823b4f1b794c56b4b2432815c35b3, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0618a441724534d208a07bc22db15908, type: 2}
   m_UseUCBPForAssetBundles: 0

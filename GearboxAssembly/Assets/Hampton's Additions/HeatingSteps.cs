@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HeatingStep : MonoBehaviour
+public class HeatingSteps : MonoBehaviour
 {
     public StepManager stepManager;
 

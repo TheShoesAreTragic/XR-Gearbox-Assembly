@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Gearbox Part
   - HeatObject
+  - Hammer
   layers:
   - Default
   - TransparentFX

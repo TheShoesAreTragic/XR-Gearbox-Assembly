@@ -35,7 +35,7 @@ public class StepEnterAdvance : MonoBehaviour
     {
         if (buttonAction.action.IsPressed())
         {
-            Debug.Log("[StepEnterAdvance] Enter pressed");
+            //Debug.Log("[StepEnterAdvance] Enter pressed");
 
             if (stepManager == null)
             {
@@ -44,7 +44,7 @@ public class StepEnterAdvance : MonoBehaviour
             }
 
             int current = stepManager.CurrentStepNumber;
-            Debug.Log("[StepEnterAdvance] Current step = " + current);
+            //Debug.Log("[StepEnterAdvance] Current step = " + current);
 
             bool allowed = false;
             for (int i = 0; i < enterSteps.Length; i++)
@@ -58,7 +58,7 @@ public class StepEnterAdvance : MonoBehaviour
 
             if (!allowed)
             {
-                Debug.Log("[StepEnterAdvance] Enter pressed, but not a step that uses Enter.");
+                //Debug.Log("[StepEnterAdvance] Enter pressed, but not a step that uses Enter.");
                 return;
             }
 
