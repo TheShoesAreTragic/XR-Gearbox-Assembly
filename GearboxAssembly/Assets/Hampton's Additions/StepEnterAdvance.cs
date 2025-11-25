@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class StepEnterAdvance : MonoBehaviour
 {
     public StepManager stepManager;
+
+    public InputActionReference buttonAction;
 
     // Steps where Enter should advance
     public int[] enterSteps = { 1, 4, 5, 10 };
@@ -18,10 +21,19 @@ public class StepEnterAdvance : MonoBehaviour
             }
         }
     }
+    private void OnEnable()
+    {
+        buttonAction.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        buttonAction.action.Disable();
+    }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (buttonAction.action.IsPressed())
         {
             Debug.Log("[StepEnterAdvance] Enter pressed");
 
