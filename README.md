@@ -20,3 +20,7 @@ Gearbox assembly is a difficult process where precision, repeatability, and safe
    1. Disable the XR Origin and Enable the XR Origin (Simulator) asset in the hierarchy
    2. Enable the XR Device Simulator asset
    3. Run the scene ang begin testing using your keyboard (g is grab and left click is the trigger button)
+
+## Video Demo
+
+[![VR Final Project Demo](https://img.youtube.com/vi/20TGyJhmqOQ/0.jpg)](https://youtu.be/20TGyJhmqOQ)
